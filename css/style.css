@@ -24,7 +24,7 @@ html {
 
 .promo {
     height: 800px;
-    background: url('/img/main.bg.jpg') center center / cover no-repeat;
+    background: url('img/main.bg.jpg') center center / cover no-repeat;
     padding: 39px 0 690px 0;
 }
 
@@ -250,7 +250,7 @@ margin-top: 17px;
 .finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background: url('/img/skils/bg.png') center center / cover no-repeat;
+    background: url('img/skils/bg.png') center center / cover no-repeat;
 }
 
 .finish .finish_header {
