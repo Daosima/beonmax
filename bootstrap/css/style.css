@@ -156,3 +156,64 @@ header {
     text-transform: uppercase;
 
 }
+.work2us {
+    min-height: 900px;
+    background-color: whitesmoke;
+    padding: 70px 0 65px 0;
+}
+
+.work2us .work2us_btn{
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000; 
+
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.work2us .work2us_header{
+    margin-top: 38px;
+    margin-bottom: 40px;
+    color: #222222;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.work2us .work2us_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50 auto;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    align-content: center;
+
+}
+.work2us .work2us_item_header{
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: justifyLeft;
+    color: #1eacc7;
+    font-weight: 400;
+    
+}
+.work2us .work2us_item_text{
+    color: #202020;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
