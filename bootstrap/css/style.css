@@ -190,7 +190,7 @@ header {
     margin-top: 35px;
 }
 
-.work2us .work2us_block .work2us_round{
+.work2us .work2us_block .work2us_round {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -213,7 +213,7 @@ header {
     font-weight: 400;
 }
 	
-}
+
 .work2us .work2us_block .work2us_descr .work2us_text {
     color: #202020;
     font-size: 15px;
