@@ -1,12 +1,16 @@
 *
   font-family: 'Roboto', sans-serif
 
-nav
-  height: 50px
-  background-color: #212121
-
 header
   position: relative
+  height: 50px
+
+nav
+  position: fixed
+  width: 100%
+  height: 50px
+  background-color: #212121
+  z-index: 2
 
 .menu
   display: flex
@@ -15,16 +19,18 @@ header
   margin: 0
   list-style-type: none
 
-  .menu_item
-    .menu_link
-      color: #ffffff
-      text-decoration: none
+  .menu_link
+    color: #ffffff
+    font-size: 15px
+    font-weight: 300
 
+  .menu_item
     border-right: 2px dotted black
     padding-right: 28px
 
 .subheader
   position: absolute
+  top: 50px
   width: 100%
   height: 84px
   background-color: rgba(0, 0, 0, 0.6)
@@ -34,39 +40,29 @@ header
     max-width: 100%
     margin-top: 16px
 
-  .subheader_oggicial
+  .subheader_official
     margin-top: 6px
+    opacity: 0.5
     color: #ffffff
     font-size: 13px
     font-weight: 400
-    font-style: normal
-    letter-spacing: normal
-    text-align: left
-    opacity: 0.5
 
   .subheader_call
-    margin-top: 23px
     color: #ffffff
-    font-family: Roboto
     font-size: 12px
     font-weight: 300
-    font-style: normal
-    letter-spacing: normal
+    margin-top: 19px
     text-align: right
 
-  .subheader_fone
+  .subheader_phone
     display: block
     margin-top: 8px
     color: #ffffff
-    font-family: Roboto
-    font-size: 19px
+    font-size: 22px
     font-weight: 400
-    font-style: normal
-    letter-spacing: normal
+    text-transform: uppercase
     text-align: right
     line-height: 12px
-    text-transform: uppercase
-    text-decoration: none
 
   .subheader_btn
     margin-top: 19px
@@ -74,16 +70,12 @@ header
     height: 46px
     box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
     border: none
+    border-radius: 4px
     background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
-    border-radius: 6px
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
     color: #ffffff
-    font-family: Roboto
     font-size: 14px
     font-weight: 400
-    font-style: normal
-    letter-spacing: normal
-    text-align: center
     text-transform: uppercase
 
 .promo
@@ -93,32 +85,30 @@ header
 
   .promo_header
     color: #ffffff
-    font-family: Roboto
     font-weight: 700
-    text-align: center
     text-transform: uppercase
     font-size: 60px
     line-height: 60px
     margin: 0
+    text-align: center
 
   .promo_subheader
     color: #ffffff
-    font-family: Roboto
     font-weight: 700
-    text-align: center
     text-transform: uppercase
     font-size: 36px
     line-height: 36px
     margin: 0
     margin-top: 22px
+    text-align: center
 
   .promo_descr
-    margin-top: 23px
     color: #ffffff
-    font-family: Roboto
     font-size: 18px
     font-weight: 400
+    line-height: 24px
     text-align: center
+    margin-top: 23px
 
   .promo_btn
     display: block
@@ -127,20 +117,18 @@ header
     height: 63px
     box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
     border: none
+    border-radius: 4px
     background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
-    border-radius: 8px
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
     color: #ffffff
-    font-family: Roboto
     font-size: 18px
     font-weight: 400
-    text-align: center
     text-transform: uppercase
 
-.work2us
+.reasons
   padding: 71px 0 65px 0
 
-.lable
+.label
   margin: 0 auto
   height: 24px
   width: 112px
@@ -160,35 +148,33 @@ header
   text-transform: uppercase
   text-align: center
 
-.work2us .work2us_block
+.reasons .reasons_block
   display: flex
   justify-content: center
   align-items: center
   margin-top: 35px
 
-  .work2us_round
+  .reasons_round
     display: flex
     justify-content: center
     align-items: center
-    margin: 0 50px auto
+    margin-right: 26px
     width: 113px
     height: 113px
     background-color: #1eacc7
     border-radius: 100%
 
-  .work2us_descr
-    align-content: center
+  .reasons_descr
     width: 343px
 
-    .work2us_subtitle
-      line-height: 25px
+    .reasons_subtitle
+      line-height: 21px
       color: #1eacc7
       font-size: 17px
       font-weight: 400
 
-    .work2us_text
+    .reasons_text
       color: #202020
       font-size: 15px
       font-weight: 300
       line-height: 21px
-      
