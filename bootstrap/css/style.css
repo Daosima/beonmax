@@ -183,37 +183,38 @@ header {
     text-align: center;
 }
 
-.work2us .reasons_block{
+.work2us .work2us_block{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
 }
 
-.work2us .reasons_block .reasons_round{
+.work2us .work2us_block .work2us_round{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	margin: 0 50px auto;
 	width: 113px;
 	height: 113px;
 	background-color: #1eacc7;
 	border-radius: 100%;
 }
 
-.work2us .reasons_block .reasons_descr {
+.work2us .work2us_block .work2us_descr {
+	align-content: center;
     width: 343px;
 }
 
-.work2us .reasons_block .reasons_descr .reasons_subtitle {
-    line-height: 21px;
+.work2us .work2us_block .work2us_descr .work2us_subtitle {
+    line-height: 25px;
     color: #1eacc7;
     font-size: 17px;
     font-weight: 400;
 }
 	
 }
-.work2us .reasons_block .reasons_descr .reasons_text {
+.work2us .work2us_block .work2us_descr .work2us_text {
     color: #202020;
     font-size: 15px;
     font-weight: 300;
